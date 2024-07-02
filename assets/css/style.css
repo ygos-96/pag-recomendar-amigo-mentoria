@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121826;
+}
+
+.cabecalho {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.cabecalho .img-logo {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal .card-central {
+    background-color: #121826;
+    max-width: 500px;
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal .card-central .titulo-card .texto-titulo {
+    color: white;
+    width: 340px;
+
+}
+
+
+.conteudo-principal .card-central .input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal .card-central .input-group .label-input {
+    color: white;
+}
+
+.conteudo-principal .card-central .input-group .input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #5358e6;
+    background-color: #121826;
+}
+
+
+
+.conteudo-principal .card-central .input-group .input:focus {
+    border-color: white;
+    outline: none;
+}
+
+.conteudo-principal .card-central .link-regulamento {
+    background: transparent;
+    border: 0;
+    width: 75%;
+    margin: 15px 0px;
+    padding: 0;
+    text-align: start;
+    font-size: 14px;
+    color: white;
+}
+
+.conteudo-principal .card-central .link-regulamento:hover {
+    text-decoration: underline;
+}
+
+.btn:focus,
+.btn:active,
+.btn.focus,
+.btn.active {
+    outline: none;
+    box-shadow: none;
+}
+
+.modal-content {
+    background-color: #121826;
+    color: white;
+}
+
+.modal-body {
+    height: 200px;
+}
+
+.close {
+    color: white;
+}
+
+.conteudo-principal .card-central .button {
+    background-color: #5358e6;
+    color: white;
+    border: 0;
+    width: 65%;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo-principal .card-central .button:focus {
+    outline: none;
+}
+
+.conteudo-principal .card-central .button:hover {
+    background-color: #5358e6;
+    transform: scale(1.1);
+}

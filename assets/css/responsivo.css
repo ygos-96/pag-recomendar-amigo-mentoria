@@ -1,0 +1,37 @@
+@media screen and (max-width:500px) {
+    .cabecalho {
+        height: 280px;
+    }
+
+    .cabecalho .img-logo {
+        height: 120px;
+        width: 90%;
+    }
+
+    .conteudo-principal .card-central {
+        width: 85%;
+        height: 380px;
+    }
+
+    .conteudo-principal .card-central .titulo-card .texto-titulo {
+        width: 300px;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .input-group input::placeholder {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .cabecalho {
+        height: 200px;
+
+    }
+
+    .cabecalho .img-logo {
+     margin-bottom: 20px;
+    }
+
+}
